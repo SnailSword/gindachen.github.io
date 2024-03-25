@@ -1,13 +1,44 @@
-title: PaperModX Example Site
-baseURL: "https://reorx.github.io/papermodx-example/"
+title: After AGI
+baseURL: "https://gindachen.github.io/"
 theme: PaperModX
 
 enableRobotsTXT: true
 enableEmoji: true
 
 params:
-  description: "PaperModX Example Site description"
-  author: Reorx
+  profileMode:
+    enabled: true
+    title: Junda Chen
+    subtitle: |
+      **Bio**: UCSD CSE 1st year PhD student. <br>
+      **Research Interest**: LLM System, Database System. <br><br><br>
+      ### News
+      - **2024/03**: DistServe accepted in OSDI24! :tada:
+      - **2023/09**: Join UCSD CSE as a PhD student!
+    imageUrl: "https://avatars.githubusercontent.com/u/32371474?v=4"
+    imageTitle: My image
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: Posts
+        url: /posts/
+      - name: Publications
+        url: /publications/
+      - name: Photos
+        url: /photos/
+  ShowShareButtons: true
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
+
+
+  description: "GindaChen"
+  author: GindaChen
   images:
     - cover.png
   favicon: favicon.ico
@@ -20,49 +51,60 @@ params:
     - notes
 
   # theme params
-  DisableLanguageSwitch: true
+  DisableLanguageSwitch: false
+  ShowToc: true
   TocOpen: true
+  ShowBreadCrumbs: false # TODO: Make the breadcurmbs better in theme! The breadcumbs are too ugly...
   TocSide: right
-  EnableInstantClick: false
+  EnableInstantClick: true
   EnableImageZoom: true
-  ShowShareButtons: true
   ShareButtons:
     - twitter
+    # - linkedin
     - telegram
   ShowReadingTime: true
   ShowWordCount: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
-  Email: hello@example.com
+  Email: junda@ucsd.edu
 
   socialIcons:
     - name: github-simple
-      url: "https://github.com/reorx"
+      url: "https://github.com/gindachen"
     - name: twitter-simple
-      url: "https://twitter.com/novoreorx"
-    - name: telegram-simple
-      url: "https://t.me/reorx_share"
-    - name: rss-simple
-      url: "feed.xml"
-    - name: gmail
-      url: email
+      url: "https://twitter.com/Junda_Chen_"
+    - name: linkedin-simple
+      url: "https://www.linkedin.com/in/junda-chen/"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=T4DPcCEAAAAJ&hl=en"
+    # - name: telegram-simple
+    #   url: "https://t.me/reorx_share"
+    # - name: rss-simple
+    #   url: "feed.xml"
+    # - name: gmail
+    #   url: "junda@ucsd.edu"
 
   socialAccounts:
     twitter:
-      username: novoreorx
+      username: Junda_Chen_
 
   homeInfoParams:
-    Title: "PaperModX"
+    Title: "Junda Chen"
     Content: |
-      Welcome to demo of hugo's theme PaperModX.
+      **Bio:** UCSD CSE 1st year PhD student. 
+      
+      **Research Interest**: LLM System. Focus on building efficient and scalable systems for modern machine learning applications.
 
-      - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+      ### News
 
-      - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+      - **2024/03**: DistServe accepted in OSDI24 ! :tada:
+      - **2023/09**: Join UCSD CSE as a PhD student !
 
-      To get started, please head to the [Docs](docs).
-
-      To see examples of different contents, head to [examples tag](tags/example).
+outputs:
+    home:
+        - HTML
+        # - RSS
+        - JSON # is necessary
 
   #commentSystems:
   #  disqus:
@@ -91,19 +133,24 @@ menu:
     - name: Posts
       url: /posts/
       weight: 1
-    - name: Notes
-      url: /notes/
+    - name: Publications
+      url: /publications/
       weight: 2
-    - name: Newsletter
-      url: /newsletter/
+    - name: Photos
+      url: /photos/
       weight: 3
     - name: Archives
       url: /archives/
       weight: 4
+    - name: Search
+      url: /search/
+      weight: 5
 
 languages:
   en:
     languageName: "English"
+  zh:
+    languageName: "中文"
 
 markup:
   goldmark:
@@ -111,5 +158,5 @@ markup:
       unsafe: true
   highlight:
     style: dracula
-    lineNos: false
+    lineNos: true
     noClasses: false
