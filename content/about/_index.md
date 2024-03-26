@@ -1,5 +1,6 @@
 ---
 title: About Me
+description: 
 ---
 
 :wave: Welcome to a much longer bio! 
