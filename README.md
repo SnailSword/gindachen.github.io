@@ -29,7 +29,7 @@ git commit -m "Removed submodule <name>"
 
 
 # Add submodule
-git submodule add --depth=1 https://github.com/GindaChen/hugo-PaperModX.git themes/PaperMod
+git submodule add --depth=1 https://github.com/GindaChen/hugo-PaperModX.git themes/PaperModX
 git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
 ```
 
