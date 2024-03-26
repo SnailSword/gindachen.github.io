@@ -4,7 +4,7 @@ disableToc: true
 ---
 
 
-## Selected Publications
+## 📄 Selected Publications 
 
 #### 2024
 
@@ -55,7 +55,7 @@ Ka Ho Yuen, Junda Chen, Yue Hu, Ka Wai Ho, A Lazarian, Victor Lazarian, Bo Yang,
 
 
 
-## Patents
+## 🔧 Patents
 
 <!-- Machine learning model selection and explanation for multi-dimensional datasets -->
 <!-- Jignesh Patel, Junda Chen, Dylan Paul Bacon, Jiatong Li, Ushmal Ramesh, Rogers Jeffrey Leo John -->

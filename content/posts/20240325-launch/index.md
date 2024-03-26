@@ -1,9 +1,9 @@
 ---
 title: |
-    Hello World 🎉
+    Launching 🚀
 draft: false
 date: "2024-03-25"
-description: "My first blog post (placeholder?)"
+description: "Hello world! Launching my first blog post (placeholder?)"
 tags:
   - info
 ShowToc: true
