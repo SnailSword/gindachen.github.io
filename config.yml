@@ -108,9 +108,13 @@ outputs:
         # - RSS
         - JSON # is necessary
 
-  #commentSystems:
-  #  disqus:
-  #    shortname: reorx
+# services:
+#   disqus:
+#     shortname: gindachen
+
+commentSystems:
+  disqus:
+    shortname: gindachen
   #  remark42:
   #    url: https://remark42.reorx.com
   #    site: reorx.github.io
