@@ -7,15 +7,20 @@ enableRobotsTXT: true
 enableEmoji: true
 
 params:
+  repo: https://github.com/GindaChen/gindachen.github.io # for version history
+  ShowViewHistory: true
   profileMode:
     enabled: true
     title: Junda Chen
     subtitle: |
       **Bio**: UCSD CSE 1st year PhD student. <br>
-      **Research Interest**: LLM System, Database System. <br><br>
+      **Research**: LLM System, Database System. <br><br>
+      
       ### News
-      - **2024/03**: [DistServe](https://hao-ai-lab.github.io/blogs/distserve/) accepted in OSDI24! :tada:
-      - **2023/09**: Join UCSD CSE as a PhD student!
+      
+      **2024/03**: [DistServe](https://hao-ai-lab.github.io/blogs/distserve/) accepted in OSDI24! :tada:
+      
+      **2023/09**: Join UCSD CSE as a PhD student!
     imageUrl: "https://avatars.githubusercontent.com/u/32371474?v=4"
     imageTitle: My image
     imageWidth: 200
