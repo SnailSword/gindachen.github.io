@@ -1,2 +1,2 @@
-# [GindaChen Blog](gindachen.github.io)
+# [GindaChen Blog](https://gindachen.github.io)
 
