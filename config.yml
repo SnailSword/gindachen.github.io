@@ -2,6 +2,7 @@ title: After AGI
 baseURL: "https://gindachen.github.io/"
 theme: PaperModX
 
+googleAnalytics: 'G-SWPWL9EDFY'
 enableRobotsTXT: true
 enableEmoji: true
 
@@ -13,7 +14,7 @@ params:
       **Bio**: UCSD CSE 1st year PhD student. <br>
       **Research Interest**: LLM System, Database System. <br><br>
       ### News
-      - **2024/03**: DistServe accepted in OSDI24! :tada:
+      - **2024/03**: [DistServe](https://hao-ai-lab.github.io/blogs/distserve/) accepted in OSDI24! :tada:
       - **2023/09**: Join UCSD CSE as a PhD student!
     imageUrl: "https://avatars.githubusercontent.com/u/32371474?v=4"
     imageTitle: My image
