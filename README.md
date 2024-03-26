@@ -3,8 +3,13 @@
 
 ## How to install
 
+1. Clone this repo.
+2. Initialize the theme submodule: `git submodule update --init --recursive`
+3. Install Hugo: `brew install hugo`
+4. Run the server and check it works: `hugo server` 
 
 
+## Useful Scripts
 Useful script when in trouble of git submodule:
 ```bash
 # Delete the submodule entry from .gitmodules file:
