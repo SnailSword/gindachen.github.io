@@ -12,8 +12,15 @@ title: About Me
 
 **As a student at UW-Madison**. I got my ~~Ph.D.~~ master [the Computer Sciences at the University of Wisconsin-Madison](https://www.cs.wisc.edu/), advised by [Jignesh Patel](https://pages.cs.wisc.edu/~jignesh/), and was a part of the [UW-Madison Database Group](https://twitter.com/wiscdb?lang=en). My research interests was in the intersection of databases and data analytics systems. I was particularly interested in building systems that enable users to interact with data in a more intuitive and efficient manner. I also got my undergrad degree in Computer Science / Math at the University of Wisconsin-Madison advised by [Remzi Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/). I also spent some amazing time side tracking into astronomy ([Ka Ho Yuen](https://www.khyuen.info/)), biochemistry (the [Senes Lab](https://seneslab.biochem.wisc.edu/)), and geoscience ([Yuhao Kang](http://www.kkyyhh96.site/)), where I worked with experts in the field to understand more in different fields of science. I enjoyed my 6 amazing years in Madison, and I am always grateful for the opportunities and experiences that I had there.
 
+
+
+<!-- I am also passionate about teaching and mentoring. 
+During my years in DataChat, I also mentored 10+ colleagues and interns during work and after, and some of them become successful as leaders in the company or in their own careers. -->
+
 ## Active Projects
 
+- **LLM inference and serving systems**. [DistServe](https://hao-ai-lab.github.io/blogs/distserve/) [OSDI 24]
+- **Serverless Computing**. 
 
 ## Side Projects
 
