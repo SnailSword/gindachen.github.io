@@ -102,31 +102,24 @@ params:
       - **2024/03**: DistServe accepted in OSDI24 ! :tada:
       - **2023/09**: Join UCSD CSE as a PhD student !
   
-  defaultCommentSystems: 
-    - disqus: true
+  commentSystems:
+    disqus:
+      shortname: gindachen
+    # remark42:
+    #   url: https://remark42.reorx.com
+    #   site: reorx.github.io
+    # telegramWidget:
+    #   channel: reorx_share
+    #   accentColor: "9077e1"
+    #   limit: 20
+  defaultCommentSystems:
+    disqus: true
 
 outputs:
     home:
         - HTML
         # - RSS
         - JSON # is necessary
-
-services:
-  disqus:
-    shortname: gindachen
-
-commentSystems:
-  disqus:
-    shortname: gindachen
-  #  remark42:
-  #    url: https://remark42.reorx.com
-  #    site: reorx.github.io
-  #  telegramWidget:
-  #    channel: reorx_share
-  #    accentColor: "9077e1"
-  #    limit: 20
-  
-  #  remark42: true
 
 permalinks:
   notes: /:section/:year/:month/:slugorfilename
