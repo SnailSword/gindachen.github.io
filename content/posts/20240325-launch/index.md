@@ -34,6 +34,7 @@ There are still a pile of todos while I'm setting up the blog:
 - [ ] General theme and layout. I always feel a little weird about the styling of the webpage. For example, why is there a bullt in front of the todo item? Why can't I click the todo box to mark it as done (in html)? 
 - [ ] Add comment services.
 - [ ] Add a "like" button for each article.
+- [ ] Add a GPT to "summarize" / "shorten". Maybe we can use [MLC](https://webllm.mlc.ai/) to do the computation on browser?
 
 ## Future: What to write?
 
